@@ -5,7 +5,6 @@ import org.example.cards.dao.entities.Car;
 import org.example.cards.dao.repositories.CarRepository;
 import org.example.cards.dto.CarDTO;
 import org.example.cards.mapper.CarMapper;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;

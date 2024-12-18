@@ -1,4 +1,4 @@
-input Car{
+input CarInput{
     model : String
     color : String
     matricule : String

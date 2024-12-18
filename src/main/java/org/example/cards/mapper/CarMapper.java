@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class CarMapper {
 
-    private final ModelMapper mapper = new ModelMapper();
+    private ModelMapper mapper = new ModelMapper();
 
 
     public Car fromCarDTOToCar(CarDTO CarDto){

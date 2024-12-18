@@ -19,7 +19,7 @@ public class CarGraphQLController {
     }
 
     @QueryMapping
-    public List<CarDTO> getCarByProce(@Argument String model){
+    public List<CarDTO> getCarByModel(@Argument String model){
         return carService.getCarByModel(model);
     }
 }
