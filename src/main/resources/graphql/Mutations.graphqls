@@ -1,0 +1,7 @@
+type Mutation{
+    saveCar(car : CarInput) : Car
+}
+input CarInput{
+
+
+}
